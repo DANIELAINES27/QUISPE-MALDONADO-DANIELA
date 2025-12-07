@@ -1,0 +1,31 @@
+---
+title: "CARPETA SEMANA 4"
+author: "DANIELA INES"
+format: html
+editor: visual
+---
+
+## ARCHIVO EN FORMATO CSV DEL REPOSITORIO GIBHUB
+
+```{1. Primero, ingresar a la guia practica e ingresar al link del repositorio}
+```
+
+![](images/Captura de pantalla 2025-12-06 172654-01.png){width="357"}
+
+```{r}
+ 2.Ubicarse en el repositorio y seleccionar la data
+```
+
+![](images/Captura de pantalla 2025-12-06 134442.png){width="345"}
+
+```{r}
+3.Seleccionar en la parte superior y descargar
+```
+
+![](images/Captura de pantalla 2025-12-06 134746.png){width="346"}
+
+```{r}
+4.FINALMENTE, VISUALIZAR EL ARCHIVO
+```
+
+![](images/Captura de pantalla 2025-12-06 134946.png){width="353"}
