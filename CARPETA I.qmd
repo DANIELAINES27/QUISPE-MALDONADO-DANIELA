@@ -1,0 +1,45 @@
+---
+title: "CREAR PROYECTO EN R STUDIO"
+author: "DANIELA INES"
+format: html
+editor: visual
+---
+
+## CREAR UN PROYECTO EN R STUDIO
+
+```{r}
+1. En la parte superior derecha , seleccionar NEW PROJECT
+```
+
+![](images/Captura de pantalla 2025-11-29 085231.png){width="384"}
+
+```{r}
+2.SELECCIONAR NUEVO DIRECTORIO
+
+```
+
+![](images/Captura de pantalla 2025-11-29 084140-01.png){width="396"}
+
+```{r}
+3.Seleccionamos NUEVO PROYECTO
+```
+
+![](images/Captura de pantalla 2025-11-29 090531.png){width="390"}
+
+```{r}
+4.Ubicar el proyecto y seleccionar el nombre
+```
+
+![](images/Captura de pantalla 2025-11-29 091156.png){width="391"}
+
+```{r}
+5. Seleccionar carpeta a guardar , luego presionar OPEN
+```
+
+![](images/Captura de pantalla 2025-11-29 091117.png){width="389"}
+
+```{r}
+6. Finalmente, visualizar el proyecto
+```
+
+![](images/Captura de pantalla 2025-11-29 091249.png){width="381"}
