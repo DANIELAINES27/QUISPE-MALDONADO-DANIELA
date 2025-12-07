@@ -1,0 +1,54 @@
+---
+title: "CARPETA SEMANA VI"
+author: "DANIELA INES"
+format: html
+editor: visual
+---
+
+## COMO LIMPIAR UNA DATA PARA UTILIZAR EN UNA COLUMNA ESPECIFICA
+
+```{r}
+1. Tener la data descargada
+```
+
+```{r}
+2. Abrir R STUDIO 
+```
+
+```{r}
+3. SELECCIONAR EN LA PESTAÑA SUPERIOR DERECHA IMPORT DATASET, LUEGO SELECCIONAR FROM TEXT READR
+```
+
+```{r}
+4. SELECCIONAR BROWSE PARA BUSCAR LA DATA E IMPORTAR EL ARCHIVO ANTERIORMENTE DESCARGADO 
+```
+
+```{r}
+5.IMPORTAR DATA
+```
+
+```{r}
+data<- read_csv("C:/Users/dm315/Downloads/s04_diabetes(5).csv")
+
+```
+
+```{r}
+6. LIMPIAR DATA
+```
+
+```{r}
+data_limpia <- data[!is.na(data$insulina), ]
+
+```
+
+```{r}
+7. AHORA EN ESPECIFICO
+```
+
+```{r}
+
+mean (data$Glucosa)
+median (data$Glucosa)
+mean (data$imc)
+var (data$imc)
+```
