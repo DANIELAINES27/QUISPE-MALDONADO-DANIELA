@@ -1,0 +1,37 @@
+---
+title: "CARPETA X"
+author: "DANIELA INES"
+format: html
+editor: visual
+---
+
+## Calcular las Medidas de Tendencia Central(media aritmética, Mediana,Moda)
+
+1.  TENER DOCUMENTO EN R STUDIO ABIERTO CON LA DATA A TRABAJAR
+
+    ```{r}
+    data$grosor_pliegue_cut_triceps <- as.numeric(data$grosor_pliegue_cut_triceps)
+    ```
+
+2.  SACAR MEDIA ARITMETICA
+
+    ```{r}
+    mean(data$grosor_pliegue_cut_triceps, na.rm = TRUE)
+    ```
+
+3.  MODA
+
+```{r}
+moda <- function(x) {
+  x <- na.omit(x)
+  t <- table(x)
+  as.numeric(names(t)[which.max(t)])
+}
+moda(data$grosor_pliegue_cut_triceps)
+```
+
+4.MEDIANA
+
+```{r}
+median(data$grosor_pliegue_cut_triceps, na.rm = TRUE)
+```
