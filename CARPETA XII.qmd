@@ -1,0 +1,52 @@
+---
+title: "CARPETA XII"
+author: "DANIELA INES"
+format: html
+editor: visual
+---
+
+## CALCULAR LAS MEDIDAS DE DISPERSION (varianza, Desviación estándar, Rango, Rango intercuartilico) y de Posición (Cuartiles), script para visualizar las 6 primeras filas, y para poder visualizar un resumen de dichas medidas
+
+1.  TENER ABIERTO TU DATA CORRESPONDIENTE
+
+```{r}
+data<- read_csv("C:/Users/dm315/Downloads/s04_diabetes(5).csv")
+```
+
+2.  CALCULAR LAS MEDIDAS DE DISPERSION COLOCANDO LAS SIGUIENTES MEDIDAS DE DISPERSION
+
+    #Varianza
+
+```{r}
+ var(data$grosor_pliegue_cut_triceps, na.rm = TRUE)
+```
+
+\# Desviación estándar
+
+```{r}
+sd(data$grosor_pliegue_cut_triceps, na.rm = TRUE)
+```
+
+\# Rango
+
+```{r}
+  range(data$grosor_pliegue_cut_triceps, na.rm = TRUE)
+```
+
+\# Rango intercuartilico
+
+```{r}
+  IQR(data$grosor_pliegue_cut_triceps, na.rm = TRUE)
+```
+
+CALCULAR MEDIDAS DE POSICION
+
+#Cuartil
+
+```{r}
+quantile(data$grosor_pliegue_cut_triceps,
+                      probs = c(0.25, 0.50, 0.75),
+                      na.rm = TRUE)
+```
+
+# 
