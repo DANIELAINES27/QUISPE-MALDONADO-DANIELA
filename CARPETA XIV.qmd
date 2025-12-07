@@ -1,0 +1,26 @@
+---
+title: "CARPETA XIX"
+author: "DANIELA INES"
+format: html
+editor: visual
+---
+
+## Realiza el análisis de Regresión, Analisis univariado, Multivariado
+
+## Análisis de regresión
+
+```{r}
+El análisis de regresión es una herramienta estadística que usamos para estudiar si dos o más variables están relacionadas entre sí, y para saber qué tanto una variable puede explicar o predecir a otra.
+```
+
+## Regresión univariado
+
+```{r}
+El análisis de regresión univariado consiste en evaluar la relación entre una variable dependiente y una sola variable independiente. Nos permite identificar si existe asociación entre ambas y si esta es estadísticamente significativa.
+```
+
+## Regresión multivariado
+
+```{r}
+El análisis de regresión multivariado se utiliza para estudiar la relación entre una variable dependiente y varias variables independientes al mismo tiempo. Este método permite identificar qué variables influyen de manera significativa en el resultado y cómo cambia la asociación cuando se ajusta por otras variables.
+```
