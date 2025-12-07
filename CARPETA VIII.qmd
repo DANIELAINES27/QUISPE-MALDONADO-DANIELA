@@ -1,0 +1,51 @@
+---
+title: "CARPETA VIII"
+author: "DANIELA INES"
+format: html
+editor: visual
+---
+
+## COMO INSTALAR UN PAQUETE EN RSTUDIO MAS HISTOGRAMA
+
+1.Para instalar un paquete , por ejemplo, ggplot2
+
+```{r}
+install.packages("ggplot2")
+```
+
+2.Cargar el paquete instalado
+
+```{r}
+library(ggplot2)
+
+```
+
+#Realizar un gráfico estadístico:
+
+Histograma
+
+```{r}
+ggplot(data, aes(x = grosor_pliegue_cut_triceps))+
+  geom_histogram(binwidth = 5)+
+  labs(
+    title = "Histograma del grosor del pliegue cutáneo del tríceps",
+    x = "Grosor del pliegue (mm)",
+    y = "Frecuencia"
+    )
+```
+
+2.  ELEGIR UN COLOR
+
+```{r}
+ggplot(data, aes(x = grosor_pliegue_cut_triceps)
+       
+       ) +
+  geom_histogram(binwidth = 5, fill = "purple", color = "PINK")
+
++
+  labs(
+    title = "Histograma del grosor del pliegue cutáneo del tríceps",
+    x = "Grosor del pliegue",
+    y = "Frecuencia"
+    )
+```
